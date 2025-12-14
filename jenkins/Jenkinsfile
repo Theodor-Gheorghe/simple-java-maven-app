@@ -26,5 +26,10 @@ pipeline {
                 echo 'Job Complete!'
             }
         }
+        stage('SCM TEST'){
+            steps {
+                echo 'This is a SCM TEST'
+            }
+        }
     }
 }
